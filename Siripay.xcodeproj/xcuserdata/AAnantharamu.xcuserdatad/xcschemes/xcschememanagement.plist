@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>RecordPayment.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>RecordPaymentUI.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Siripay.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>2880B9271DF4316D00889587</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2880B93B1DF4316E00889587</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2880B9461DF4316E00889587</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2880B95D1DF432D200889587</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2880B9661DF432D200889587</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

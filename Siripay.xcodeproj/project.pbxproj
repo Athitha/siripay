@@ -1,0 +1,797 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2880B92C1DF4316D00889587 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2880B92B1DF4316D00889587 /* AppDelegate.swift */; };
+		2880B92E1DF4316D00889587 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2880B92D1DF4316D00889587 /* ViewController.swift */; };
+		2880B9311DF4316D00889587 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2880B92F1DF4316D00889587 /* Main.storyboard */; };
+		2880B9331DF4316D00889587 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2880B9321DF4316D00889587 /* Assets.xcassets */; };
+		2880B9361DF4316D00889587 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2880B9341DF4316D00889587 /* LaunchScreen.storyboard */; };
+		2880B9611DF432D200889587 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2880B9601DF432D200889587 /* IntentHandler.swift */; };
+		2880B96A1DF432D200889587 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2880B9691DF432D200889587 /* IntentsUI.framework */; };
+		2880B96D1DF432D200889587 /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2880B96C1DF432D200889587 /* IntentViewController.swift */; };
+		2880B9701DF432D200889587 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2880B96E1DF432D200889587 /* MainInterface.storyboard */; };
+		2880B9741DF432D200889587 /* RecordPaymentUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2880B9671DF432D200889587 /* RecordPaymentUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2880B9771DF432D200889587 /* RecordPayment.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2880B95E1DF432D200889587 /* RecordPayment.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2880B9801DF4EC2900889587 /* Paymentcontacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2880B97F1DF4EC2900889587 /* Paymentcontacts.swift */; };
+		2880B9811DF50CD400889587 /* Paymentcontacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2880B97F1DF4EC2900889587 /* Paymentcontacts.swift */; };
+		2880B9821DF50CD500889587 /* Paymentcontacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2880B97F1DF4EC2900889587 /* Paymentcontacts.swift */; };
+		2880B9831DF5114700889587 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2880B9601DF432D200889587 /* IntentHandler.swift */; };
+		2880B9841DF5115900889587 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2880B92D1DF4316D00889587 /* ViewController.swift */; };
+		2880B9851DF5115A00889587 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2880B92D1DF4316D00889587 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2880B93D1DF4316E00889587 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2880B9201DF4316D00889587 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2880B9271DF4316D00889587;
+			remoteInfo = Siripay;
+		};
+		2880B9481DF4316E00889587 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2880B9201DF4316D00889587 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2880B9271DF4316D00889587;
+			remoteInfo = Siripay;
+		};
+		2880B9721DF432D200889587 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2880B9201DF4316D00889587 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2880B9661DF432D200889587;
+			remoteInfo = RecordPaymentUI;
+		};
+		2880B9751DF432D200889587 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2880B9201DF4316D00889587 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2880B95D1DF432D200889587;
+			remoteInfo = RecordPayment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2880B97E1DF432D200889587 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2880B9771DF432D200889587 /* RecordPayment.appex in Embed App Extensions */,
+				2880B9741DF432D200889587 /* RecordPaymentUI.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2880B9281DF4316D00889587 /* Siripay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Siripay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2880B92B1DF4316D00889587 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2880B92D1DF4316D00889587 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2880B9301DF4316D00889587 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2880B9321DF4316D00889587 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2880B9351DF4316D00889587 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2880B9371DF4316D00889587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2880B93C1DF4316E00889587 /* SiripayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SiripayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2880B9471DF4316E00889587 /* SiripayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SiripayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2880B9591DF4317800889587 /* Siripay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Siripay.entitlements; sourceTree = "<group>"; };
+		2880B95E1DF432D200889587 /* RecordPayment.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = RecordPayment.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2880B9601DF432D200889587 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		2880B9621DF432D200889587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2880B9671DF432D200889587 /* RecordPaymentUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = RecordPaymentUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2880B9691DF432D200889587 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		2880B96C1DF432D200889587 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		2880B96F1DF432D200889587 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		2880B9711DF432D200889587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2880B97F1DF4EC2900889587 /* Paymentcontacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paymentcontacts.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2880B9251DF4316D00889587 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2880B9391DF4316E00889587 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2880B9441DF4316E00889587 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2880B95B1DF432D200889587 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2880B9641DF432D200889587 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2880B96A1DF432D200889587 /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2880B91F1DF4316D00889587 = {
+			isa = PBXGroup;
+			children = (
+				2880B92A1DF4316D00889587 /* Siripay */,
+				2880B95F1DF432D200889587 /* RecordPayment */,
+				2880B96B1DF432D200889587 /* RecordPaymentUI */,
+				2880B9681DF432D200889587 /* Frameworks */,
+				2880B9291DF4316D00889587 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2880B9291DF4316D00889587 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2880B9281DF4316D00889587 /* Siripay.app */,
+				2880B93C1DF4316E00889587 /* SiripayTests.xctest */,
+				2880B9471DF4316E00889587 /* SiripayUITests.xctest */,
+				2880B95E1DF432D200889587 /* RecordPayment.appex */,
+				2880B9671DF432D200889587 /* RecordPaymentUI.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2880B92A1DF4316D00889587 /* Siripay */ = {
+			isa = PBXGroup;
+			children = (
+				2880B9591DF4317800889587 /* Siripay.entitlements */,
+				2880B92B1DF4316D00889587 /* AppDelegate.swift */,
+				2880B92D1DF4316D00889587 /* ViewController.swift */,
+				2880B97F1DF4EC2900889587 /* Paymentcontacts.swift */,
+				2880B92F1DF4316D00889587 /* Main.storyboard */,
+				2880B9321DF4316D00889587 /* Assets.xcassets */,
+				2880B9341DF4316D00889587 /* LaunchScreen.storyboard */,
+				2880B9371DF4316D00889587 /* Info.plist */,
+			);
+			path = Siripay;
+			sourceTree = "<group>";
+		};
+		2880B95F1DF432D200889587 /* RecordPayment */ = {
+			isa = PBXGroup;
+			children = (
+				2880B9601DF432D200889587 /* IntentHandler.swift */,
+				2880B9621DF432D200889587 /* Info.plist */,
+			);
+			path = RecordPayment;
+			sourceTree = "<group>";
+		};
+		2880B9681DF432D200889587 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2880B9691DF432D200889587 /* IntentsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2880B96B1DF432D200889587 /* RecordPaymentUI */ = {
+			isa = PBXGroup;
+			children = (
+				2880B96C1DF432D200889587 /* IntentViewController.swift */,
+				2880B96E1DF432D200889587 /* MainInterface.storyboard */,
+				2880B9711DF432D200889587 /* Info.plist */,
+			);
+			path = RecordPaymentUI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2880B9271DF4316D00889587 /* Siripay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2880B9501DF4316E00889587 /* Build configuration list for PBXNativeTarget "Siripay" */;
+			buildPhases = (
+				2880B9241DF4316D00889587 /* Sources */,
+				2880B9251DF4316D00889587 /* Frameworks */,
+				2880B9261DF4316D00889587 /* Resources */,
+				2880B97E1DF432D200889587 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2880B9731DF432D200889587 /* PBXTargetDependency */,
+				2880B9761DF432D200889587 /* PBXTargetDependency */,
+			);
+			name = Siripay;
+			productName = Siripay;
+			productReference = 2880B9281DF4316D00889587 /* Siripay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2880B93B1DF4316E00889587 /* SiripayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2880B9531DF4316E00889587 /* Build configuration list for PBXNativeTarget "SiripayTests" */;
+			buildPhases = (
+				2880B9381DF4316E00889587 /* Sources */,
+				2880B9391DF4316E00889587 /* Frameworks */,
+				2880B93A1DF4316E00889587 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2880B93E1DF4316E00889587 /* PBXTargetDependency */,
+			);
+			name = SiripayTests;
+			productName = SiripayTests;
+			productReference = 2880B93C1DF4316E00889587 /* SiripayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2880B9461DF4316E00889587 /* SiripayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2880B9561DF4316E00889587 /* Build configuration list for PBXNativeTarget "SiripayUITests" */;
+			buildPhases = (
+				2880B9431DF4316E00889587 /* Sources */,
+				2880B9441DF4316E00889587 /* Frameworks */,
+				2880B9451DF4316E00889587 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2880B9491DF4316E00889587 /* PBXTargetDependency */,
+			);
+			name = SiripayUITests;
+			productName = SiripayUITests;
+			productReference = 2880B9471DF4316E00889587 /* SiripayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		2880B95D1DF432D200889587 /* RecordPayment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2880B97B1DF432D200889587 /* Build configuration list for PBXNativeTarget "RecordPayment" */;
+			buildPhases = (
+				2880B95A1DF432D200889587 /* Sources */,
+				2880B95B1DF432D200889587 /* Frameworks */,
+				2880B95C1DF432D200889587 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RecordPayment;
+			productName = RecordPayment;
+			productReference = 2880B95E1DF432D200889587 /* RecordPayment.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		2880B9661DF432D200889587 /* RecordPaymentUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2880B9781DF432D200889587 /* Build configuration list for PBXNativeTarget "RecordPaymentUI" */;
+			buildPhases = (
+				2880B9631DF432D200889587 /* Sources */,
+				2880B9641DF432D200889587 /* Frameworks */,
+				2880B9651DF432D200889587 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RecordPaymentUI;
+			productName = RecordPaymentUI;
+			productReference = 2880B9671DF432D200889587 /* RecordPaymentUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2880B9201DF4316D00889587 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Athitha Anantharamu";
+				TargetAttributes = {
+					2880B9271DF4316D00889587 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5PKYKCYDR5;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Siri = {
+								enabled = 1;
+							};
+						};
+					};
+					2880B93B1DF4316E00889587 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5PKYKCYDR5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2880B9271DF4316D00889587;
+					};
+					2880B9461DF4316E00889587 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5PKYKCYDR5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2880B9271DF4316D00889587;
+					};
+					2880B95D1DF432D200889587 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5PKYKCYDR5;
+						ProvisioningStyle = Automatic;
+					};
+					2880B9661DF432D200889587 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5PKYKCYDR5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2880B9231DF4316D00889587 /* Build configuration list for PBXProject "Siripay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2880B91F1DF4316D00889587;
+			productRefGroup = 2880B9291DF4316D00889587 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2880B9271DF4316D00889587 /* Siripay */,
+				2880B93B1DF4316E00889587 /* SiripayTests */,
+				2880B9461DF4316E00889587 /* SiripayUITests */,
+				2880B95D1DF432D200889587 /* RecordPayment */,
+				2880B9661DF432D200889587 /* RecordPaymentUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2880B9261DF4316D00889587 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2880B9361DF4316D00889587 /* LaunchScreen.storyboard in Resources */,
+				2880B9331DF4316D00889587 /* Assets.xcassets in Resources */,
+				2880B9311DF4316D00889587 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2880B93A1DF4316E00889587 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2880B9451DF4316E00889587 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2880B95C1DF432D200889587 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2880B9651DF432D200889587 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2880B9701DF432D200889587 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2880B9241DF4316D00889587 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2880B9801DF4EC2900889587 /* Paymentcontacts.swift in Sources */,
+				2880B92E1DF4316D00889587 /* ViewController.swift in Sources */,
+				2880B9831DF5114700889587 /* IntentHandler.swift in Sources */,
+				2880B92C1DF4316D00889587 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2880B9381DF4316E00889587 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2880B9431DF4316E00889587 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2880B95A1DF432D200889587 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2880B9851DF5115A00889587 /* ViewController.swift in Sources */,
+				2880B9611DF432D200889587 /* IntentHandler.swift in Sources */,
+				2880B9811DF50CD400889587 /* Paymentcontacts.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2880B9631DF432D200889587 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2880B9841DF5115900889587 /* ViewController.swift in Sources */,
+				2880B96D1DF432D200889587 /* IntentViewController.swift in Sources */,
+				2880B9821DF50CD500889587 /* Paymentcontacts.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2880B93E1DF4316E00889587 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2880B9271DF4316D00889587 /* Siripay */;
+			targetProxy = 2880B93D1DF4316E00889587 /* PBXContainerItemProxy */;
+		};
+		2880B9491DF4316E00889587 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2880B9271DF4316D00889587 /* Siripay */;
+			targetProxy = 2880B9481DF4316E00889587 /* PBXContainerItemProxy */;
+		};
+		2880B9731DF432D200889587 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2880B9661DF432D200889587 /* RecordPaymentUI */;
+			targetProxy = 2880B9721DF432D200889587 /* PBXContainerItemProxy */;
+		};
+		2880B9761DF432D200889587 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2880B95D1DF432D200889587 /* RecordPayment */;
+			targetProxy = 2880B9751DF432D200889587 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2880B92F1DF4316D00889587 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2880B9301DF4316D00889587 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2880B9341DF4316D00889587 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2880B9351DF4316D00889587 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2880B96E1DF432D200889587 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2880B96F1DF432D200889587 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2880B94E1DF4316E00889587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2880B94F1DF4316E00889587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2880B9511DF4316E00889587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Siripay/Siripay.entitlements;
+				DEVELOPMENT_TEAM = 5PKYKCYDR5;
+				INFOPLIST_FILE = Siripay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = athitha.Siripay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2880B9521DF4316E00889587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Siripay/Siripay.entitlements;
+				DEVELOPMENT_TEAM = 5PKYKCYDR5;
+				INFOPLIST_FILE = Siripay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = athitha.Siripay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2880B9541DF4316E00889587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5PKYKCYDR5;
+				INFOPLIST_FILE = SiripayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = athitha.SiripayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Siripay.app/Siripay";
+			};
+			name = Debug;
+		};
+		2880B9551DF4316E00889587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5PKYKCYDR5;
+				INFOPLIST_FILE = SiripayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = athitha.SiripayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Siripay.app/Siripay";
+			};
+			name = Release;
+		};
+		2880B9571DF4316E00889587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5PKYKCYDR5;
+				INFOPLIST_FILE = SiripayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = athitha.SiripayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Siripay;
+			};
+			name = Debug;
+		};
+		2880B9581DF4316E00889587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5PKYKCYDR5;
+				INFOPLIST_FILE = SiripayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = athitha.SiripayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Siripay;
+			};
+			name = Release;
+		};
+		2880B9791DF432D200889587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5PKYKCYDR5;
+				INFOPLIST_FILE = RecordPaymentUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = athitha.Siripay.RecordPaymentUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2880B97A1DF432D200889587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5PKYKCYDR5;
+				INFOPLIST_FILE = RecordPaymentUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = athitha.Siripay.RecordPaymentUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2880B97C1DF432D200889587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5PKYKCYDR5;
+				INFOPLIST_FILE = RecordPayment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = athitha.Siripay.RecordPayment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2880B97D1DF432D200889587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5PKYKCYDR5;
+				INFOPLIST_FILE = RecordPayment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = athitha.Siripay.RecordPayment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2880B9231DF4316D00889587 /* Build configuration list for PBXProject "Siripay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2880B94E1DF4316E00889587 /* Debug */,
+				2880B94F1DF4316E00889587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2880B9501DF4316E00889587 /* Build configuration list for PBXNativeTarget "Siripay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2880B9511DF4316E00889587 /* Debug */,
+				2880B9521DF4316E00889587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2880B9531DF4316E00889587 /* Build configuration list for PBXNativeTarget "SiripayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2880B9541DF4316E00889587 /* Debug */,
+				2880B9551DF4316E00889587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2880B9561DF4316E00889587 /* Build configuration list for PBXNativeTarget "SiripayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2880B9571DF4316E00889587 /* Debug */,
+				2880B9581DF4316E00889587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2880B9781DF432D200889587 /* Build configuration list for PBXNativeTarget "RecordPaymentUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2880B9791DF432D200889587 /* Debug */,
+				2880B97A1DF432D200889587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2880B97B1DF432D200889587 /* Build configuration list for PBXNativeTarget "RecordPayment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2880B97C1DF432D200889587 /* Debug */,
+				2880B97D1DF432D200889587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2880B9201DF4316D00889587 /* Project object */;
+}
